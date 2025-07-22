@@ -1,5 +1,5 @@
 "use client"
-import { Frame_13 } from "../ui/icons";
+import { Frame_13 } from "../ui/Icons";
 import { motion } from "framer-motion";
 
 function CalltoAction() {
