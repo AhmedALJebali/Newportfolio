@@ -10,28 +10,28 @@ function Testimonial() {
       name: "Client First Name",
       title: "UX Designer",
       company: "Company Name",
-      imageSrc: "/avatar1.jpg",
+      imageSrc: "#",
     },
     {
       testimonial: "Design is a bridge that connects everyone and everything",
       name: "Client Name",
       title: "UX Designer",
       company: "Company Name",
-      imageSrc: "/avatar2.jpg",
+      imageSrc: "#",
     },
     {
       testimonial: "Design is a bridge that connects everyone and everything",
       name: "Client Name",
       title: "UX Designer",
       company: "Company Name",
-      imageSrc: "/avatar3.jpg",
+      imageSrc: "#",
     },
     {
       testimonial: "Design is a bridge that connects everyone and everything",
       name: "Client Name",
       title: "UX Designer",
       company: "Company Name",
-      imageSrc: "/avatar4.jpg",
+      imageSrc: "#",
     },
   ];
 

@@ -1,8 +1,8 @@
 import { ExternalLink } from "lucide-react";
-
+import Image from "next/image";
 const PortfolioCard = ({
   title = "Portfolio design",
-  image = "/path/to/default-image.jpg",
+  image = "/public",
   description = "UI design - User research - webflow develop",
   link = "#",
 }) => {
@@ -16,10 +16,12 @@ const PortfolioCard = ({
 
       {/* Image */}
       <div className="border-[2px] border-black w-full aspect-[16/9] overflow-hidden">
-        <img
+        <Image
           src={image}
           alt={title}
+          fill
           className="w-full h-full object-cover"
+          
         />
       </div>
 

@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import { Baseet, Star } from "../ui/Icons";
 
 function Header() {
@@ -16,8 +18,13 @@ function Header() {
           className="absolute bottom-4 right-[-35px] sm:bottom-6 sm:right-[-45px]"
         />
 
-        {/* Header nav */}
-        <nav className="relative w-full max-w-[95%] sm:max-w-[490px] border-4 border-black h-12 sm:h-16 font-bold capitalize bg-white flex text-xs xs:text-sm sm:text-lg md:text-xl shadow-xl">
+        {/* Header nav with animation */}
+        <motion.nav
+          initial={{ y: -40, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="relative w-full max-w-[95%] sm:max-w-[490px] border-4 border-black h-12 sm:h-16 font-bold capitalize bg-white flex text-xs xs:text-sm sm:text-lg md:text-xl shadow-xl"
+        >
           {/* Corner squares */}
           <div className="absolute top-[-6px] left-[-6px] w-2.5 h-2.5 sm:w-4 sm:h-4 bg-white border-4 border-black" />
           <div className="absolute top-[-6px] right-[-6px] w-2.5 h-2.5 sm:w-4 sm:h-4 bg-white border-4 border-black" />
@@ -42,7 +49,7 @@ function Header() {
               Hire Me
             </span>
           </div>
-        </nav>
+        </motion.nav>
       </div>
 
       <hr className="border-black border-b-4 sm:border-b-5" />
