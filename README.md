@@ -6,10 +6,8 @@ This is a modern and responsive portfolio website built with **Next.js 15**, **R
 ## 🚀 Features
 
 - ⚡️ Fully responsive design
-- 🌙 Dark/Light mode toggle
 - 🧩 Reusable components
 - ✨ Smooth animations with Framer Motion
-- 🛠 Connected to headless CMS (Strapi or similar)
 - 📱 Social media integration
 
 ## 🛠️ Tech Stack
