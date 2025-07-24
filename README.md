@@ -60,7 +60,7 @@ npm run dev
 ## 📬 Contact
 
 If you want to work with me or have any questions, feel free to reach out:
-- 📧 your-email@example.com
+- 📧 ahmedaljebalii@gmail.com
 - 🌐 [My Portfolio](https://aljebali.netlify.app/)
 ---
 
